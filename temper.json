@@ -1,0 +1,13 @@
+{
+  "mysql": {
+    "host": "mysqlserver.local",
+    "user" : "pitemper",
+    "passwd": "12345",
+    "db": "test"
+  },
+  "command": {
+    "pass": "/home/pi/TEMPered/utils",
+    "exe": "tempered",
+    "param": "-c-2.045"
+  }
+}

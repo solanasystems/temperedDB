@@ -1,0 +1,12 @@
+[Unit]
+Description=temperedDB daemon
+
+[Service]
+ExecStart=/home/pi/TEMPered/utils/temperedDB.py -w30
+Restart=always
+Type=simple
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
